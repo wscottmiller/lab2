@@ -1,3 +1,5 @@
+
+/* Custom CSS*/
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
@@ -9,15 +11,15 @@
 	color: #CC00AA;
 }
 
-/* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
 body {
-     
-     display:block;
-	 margin: 8px;
-     
+	background: #EEEEEE;
+	display:block;
+    background: url('../images/congruent_pentagon.png') top left repeat;
+	
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	margin:8px;
 }
-
 .jumbotron {
 	position: relative;
 	background: none;
@@ -26,7 +28,7 @@ body {
 .jumbotron:after {
      content:"";
      background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     opacity: 0.6;
      top: 0;
      left: 0;
      bottom: 0;
@@ -34,4 +36,3 @@ body {
      position: absolute;
      z-index: -1;	
 }
-
